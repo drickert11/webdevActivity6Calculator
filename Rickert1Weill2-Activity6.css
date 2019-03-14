@@ -1,0 +1,29 @@
+/*ITIS 3135 Activity 5 css file*/
+
+body
+ {
+    font-family:"arial";
+}
+        
+/*Make it look more like a calculator*/
+#calc
+{
+	width:250px;
+    background-color:#cccccc;
+    text-align:center;
+    border:outset;
+    padding:5px;
+}
+        
+/*Change the style of the buttons*/
+input
+{
+    font-family:"Courier New";
+    text-align:right;
+ }
+
+/*Make the buttons that have not been implemented red*/
+input.implement
+{
+    background-color:red;   
+}
